@@ -21,7 +21,7 @@ model = BertForSequenceClassification.from_pretrained('./modern_bert_finetuned',
 tokenizer = PreTrainedTokenizerFast.from_pretrained("./modern_bert_finetuned")
 translator = Translator()
 model.eval()
-
+# TO DO
 # Équivalences BI-RADS
 birads_mapping = {
     0: "2",
@@ -46,6 +46,7 @@ def predict_birads(report_text):
         report_text = translator.translate(report_text, src=detected_lang, dest='en').text
 
     inputs = tokenizer(report_text, padding=True, truncation=True, max_length=512, return_tensors="pt")
+    print(inputs)
     
     with torch.no_grad():
         outputs = model(**inputs)

@@ -10,11 +10,11 @@ const HomePage = () => {
         <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
           <Ribbon className="h-24 w-24 text-pink-500 fill-pink-100" />
         </div>
-       
+
         <h1 className="text-4xl md:text-5xl font-bold text-pink-600 mt-16 mb-11">
           Classification BI-RADS du Cancer Du Sein
         </h1>
-       
+
         <Button
           size="lg"
           className="bg-pink-500 hover:bg-pink-600 text-white px-8 py-6 text-lg"
@@ -22,8 +22,10 @@ const HomePage = () => {
         >
           Analyser
         </Button>
-      </div>
 
+        <p className="mt-6 text-sm text-pink-700">Par: Walid Housni - Zouhair Chakroun - Ahmed Daoudi - Hamza El Fellah</p>
+        <p className="text-sm text-pink-700">Projet Intégré</p>
+      </div>
     </div>
   );
 };
