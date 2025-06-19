@@ -22,9 +22,6 @@ const HomePage = () => {
         >
           Analyser
         </Button>
-
-        <p className="mt-6 text-sm text-pink-700">Par: Walid Housni - Zouhair Chakroun - Ahmed Daoudi - Hamza El Fellah</p>
-        <p className="text-sm text-pink-700">Projet Intégré</p>
       </div>
     </div>
   );

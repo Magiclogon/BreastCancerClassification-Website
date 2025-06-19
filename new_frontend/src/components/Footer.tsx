@@ -17,6 +17,8 @@ const Footer = () => {
           
           <div className="text-sm text-gray-500 mt-4 md:mt-0 text-center md:text-right">
             Créé par : Walid Housni - Zouhair Chakroun - Ahmed Daoudi - Hamza El Fellah
+            <br />
+            Encadré par: Pr. BENHLIMA Laïla
           </div>
         </div>
       </div>
